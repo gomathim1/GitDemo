@@ -36,13 +36,10 @@ public class AddToCartPage extends BaseClass{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		//WebElement element = driver.findElement(By.xpath("//div[contains(text(),'Nokia')]"));
 		List<WebElement> products2 = driver.findElements(By.xpath("//h2[@class='product-title']"));
-		for(WebElement ele: products2) {
-			String text = getText(ele);
-			if(text.contains("Nokia"))
-			{
-				click(ele);
-			}
-		}
+		/*
+		 * for(WebElement ele: products2) { String text = getText(ele);
+		 * if(text.contains("Nokia")) { click(ele); } }
+		 */
 		//click(element);
 		//click(addToCart2);
 	}
