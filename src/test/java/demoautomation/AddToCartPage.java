@@ -42,6 +42,7 @@ public class AddToCartPage extends BaseClass{
 		 */
 		//click(element);
 		//click(addToCart2);
+		System.out.println("Added new line in team2");
 	}
 	
 }
